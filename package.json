@@ -1,6 +1,7 @@
 {
     "scripts": {
-        "start": "node server/index.js"
+        "start": "node server/index.js",
+        "build": "cd client && npm install && npm run build"
     },
     "devDependencies": {
         "eslint": "^8.14.0",
@@ -17,5 +18,8 @@
         "react-router": "^6.3.0",
         "react-router-dom": "^6.3.0",
         "readline-sync": "^1.4.10"
+    },
+    "engines": {
+        "node": "16.15.0"
     }
 }
