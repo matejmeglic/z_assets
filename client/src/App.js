@@ -66,7 +66,7 @@ const theme = createTheme({
     backgroundRepeat: "no-repeat",
     backgroundPosition: "bottom",
     backgroundSize: "100% auto",
-    height: '21vh'
+    height: '350px'
 
   },
 });
