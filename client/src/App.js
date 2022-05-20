@@ -5,14 +5,12 @@ import background from "./assets/layered-waves-haikei_4k.svg"
 import footer from "./assets/layered-waves-haikei_4k_2.svg"
 import InfoModal from "./Modal"
 
-
 import Button from '@mui/material/Button'
 import Box from '@mui/material/Box';
 import TextField from '@mui/material/TextField';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import Typography from '@mui/material/Typography';
 import Divider from '@mui/material/Divider';
-
 
 const theme = createTheme({
   palette: {
