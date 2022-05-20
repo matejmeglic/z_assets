@@ -5,7 +5,6 @@ const readline = require('readline');
 const path = require('path');
 const open = require('open');
 
-
 var apiArray = []
 var counter = 0
 var assetsFolder = ''
@@ -104,7 +103,6 @@ async function crawlDirectories(dir, action, confirmation, searchEntity, searchS
             }
         }
     };
-
 }
 
 const PORT = process.env.PORT || 3001;
