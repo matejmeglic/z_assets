@@ -209,7 +209,6 @@ function App() {
             <br />
             <Button variant="outlined" onClick={() => readData()} color={"primary"}>Parse data</Button>
             <p style={{ 'display': 'inline', 'color': theme.palette[errorMessage.color].main, }}>{errorMessage.message}</p>
-
           </Box>
           {data.loading ? '' :
             <Box
